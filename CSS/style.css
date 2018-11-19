@@ -239,6 +239,11 @@ h2 {
 
 }
 
+.blog-eintrag a {
+	color: #000;
+    text-decoration-color: #777;
+}
+
 /* Newsletter*/
 
 .newsletter {
