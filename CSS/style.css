@@ -90,7 +90,7 @@ h2, h4 {
 }
 .banner {
     height: 800px;
-    background-image: url(../images/nichlas-andersen-415226-unsplash.jpg);
+    background-image: url(../images/test.jpg); /*nichlas-andersen-415226-unsplash.jpg*/
     background-repeat: no-repeat;	
     background-size: cover;
 	background-attachment: fixed;
@@ -247,6 +247,9 @@ h2, h4 {
 }
 
 /* Newsletter*/
+#sec5 {
+	height: 730px;
+}
 
 .newsletter {
     display: flex;
@@ -254,9 +257,17 @@ h2, h4 {
     justify-content: center;
     align-items: center;
     height: 100%;
+	background-image: url(../images/IMG_4730.JPG);
+    background-repeat: no-repeat;	
+    background-size: cover;
+	background-attachment: fixed;
 }
 .newsletter h6 {
     margin-bottom: 10px;
+	color: white;	
+}
+.newsletter h2 {
+	color: white !important;
 }
 
 .input {
@@ -336,11 +347,20 @@ h2, h4 {
     }
     
     #sec5 {
-	height: 500px;
-}
+		height: 600px;
+	}
     #sec1 {
         height: 1000px;
     }
+	#sec2 {
+		height: 400px;
+	}
+	#sec3{
+		height: 1100px;
+	}
+	#sec4{
+		height: 1100px;
+	}
 
     .banner {
         height: 500px !important;
