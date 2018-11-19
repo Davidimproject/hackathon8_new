@@ -1,11 +1,11 @@
 $(document).ready(function () {
-    
+    var navHeight = $("#navigation").outerHeight();
     var mobileNavOpen = false;
     
     function scrollToElement (elementid) {
         
         $([document.documentElement, document.body]).animate({
-            scrollTop: $(elementid).offset().top
+            scrollTop: $(elementid).offset().top -navHeight
         }, 1000);
         
     }
@@ -19,7 +19,7 @@ $(document).ready(function () {
     $(".section").each(function (index, sec) {
             
         var secId = $(sec).attr("id");
-        var secPosition = $(sec).offset().top;
+        var secPosition = $(sec).offset().top -navHeight;
         
         var nav = null;
         
