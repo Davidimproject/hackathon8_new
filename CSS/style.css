@@ -18,13 +18,14 @@ body {
 
 
 h1 {
-    font-family: 'cover by your grace', sans-serif !important;
+    font-family: 'cover by your grace', cursive!important;
     font-size: 58px !important;
 }
 
-h2 {
-    font-family: 'cover by your grace', sans-serif;
-    font-size: 48px;
+h4 {
+    font-family:'Covered By Your Grace', cursive !important;
+    font-size: 32px !important;
+    color: #000 !important;
 }
 
 
