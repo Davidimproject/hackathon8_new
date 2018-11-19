@@ -9,12 +9,16 @@
     position: fixed;
     top: 16px;
     transition: 0.2s ease;
+	
+	
 }
 
 #logo:hover {
     
-    color: green;
+    color: #06d500;
     cursor: default;
+	text-decoration: none;
+	
 }
 
 #navigation {
@@ -58,7 +62,7 @@
 
 #navigation nav ul li a.active {
 
-    color: green;
+    color: #06d500;
     
 }
 
@@ -74,7 +78,7 @@
 
 #navigation nav ul li a:hover {
     text-decoration: none;
-    color: green;
+    color: #06d500;
     cursor: default;
 }
 
