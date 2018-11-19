@@ -275,15 +275,6 @@ h2 {
         z-index: 1000000;
     }
     
-    .slide-text {
-        width: 60%;
-        margin-bottom: -150px;
-        margin-left: 50px;
-        z-index: 20;
-    }
-    .slide {
-        z-index: -1;
-    }
 
 }
 
