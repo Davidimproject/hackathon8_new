@@ -89,7 +89,6 @@ h2 {
 }
 .banner {
     height: 800px;
-    min-height: 400px;
     background-image: url(../images/nichlas-andersen-415226-unsplash.jpg);
     background-repeat: no-repeat;	
     background-size: cover;
@@ -105,7 +104,7 @@ h2 {
     text-align: right;
     position: absolute; /* ausschalten um Problem mit Navi zu lösen */
     top: 50%;
-    left: 30%;
+    right: 30%;
     color: #fff;
     font-size: 52px;
 	background-size: cover;
@@ -125,7 +124,6 @@ h2 {
 .about-img {
     width: 100%;
     height: auto;
-    padding: 20px 0 30px 20px;
 }
 
 .about-text {
@@ -277,18 +275,9 @@ h2 {
     .about-text {
         background-color: #fff;
         box-shadow: 1px 2px 18px #888888;
-        z-index: 1000000;
+        z-index: 10;
     }
     
-    .slide-text {
-        width: 60%;
-        margin-bottom: -150px;
-        margin-left: 50px;
-        z-index: 20;
-    }
-    .slide {
-        z-index: -1;
-    }
 
 }
 
@@ -313,7 +302,7 @@ h2 {
 @media only screen and (max-width: 768px) {
     
     .section {
-        height: 1200px;
+        height: 1000px;
     }
     .container {
         flex-direction: column;
@@ -323,40 +312,21 @@ h2 {
         height: 100%;
     } 
 
-    /*START Slides*/
-
-    .slide {
-        width: 100%;
-        height: 200px;
-    }
-    
-    
-    
-    /*START Events*/
-
-    .Event-text {   
-    display: block;
-    padding: 50px;
-	margin-top: 50px;
-}
-    #sec3 {
-	height: 1000px;
-}
-
-	
-
-/* END Events */
-/* START Blog*/
-
-
-
-/* END Blog */
-
     .left, .right {
         width: 100%;
-        height: 50%;
     }
     
+    #sec5 {
+	height: 500px;
+}
+    #sec1 {
+        height: 1000px;
+    }
+
+    .section .banner {
+        height: 600px;
+        
+    }
     h1 {
         font-size: 32px !important;
     }
@@ -386,7 +356,26 @@ h2 {
         width: 100% !important;
     }
      
+     /*START Slides*/
+
+    .slide {
+        width: 100%;
+        height: 200px;
+    }
     
+    
+    
+    /*START Events*/
+
+    .Event-text {   
+    display: block;
+    padding: 50px;
+	margin-top: 50px;
+}
+
+	
+
+/* END Events */
     
 }
 
