@@ -212,7 +212,9 @@ h2, h4 {
 
 
 /* Blog */
-
+#sec4{
+	height: 730px;
+}
 .block-img {
     width: 100%;
     height: auto;
