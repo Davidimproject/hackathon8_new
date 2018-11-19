@@ -64,7 +64,7 @@ $(document).ready(function () {
         allSecs.forEach(function (element, index) {
             
             if (wScroll >= element.position) {
-                $(".active").removeClass("active");
+                $(".scrollNav.active").removeClass("active");
                 $(element.nav).addClass("active");
             }
             
