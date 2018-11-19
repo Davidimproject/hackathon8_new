@@ -50,7 +50,7 @@ $(document).ready(function () {
     
     // Window Scroll Navigation Transform
     $( window ).scroll(function(e) {
-        
+  
         var wScroll = $(window).scrollTop();
         
         navigationTransform(wScroll);
@@ -116,9 +116,21 @@ $(document).ready(function () {
         
     });
    
+   // Resize für Rückkehr auf Desktop Vieport 
     
-    
-    
+   $(window).resize(function(){
+		$('body, html').css('overflow', 'hidden');
+		var screenWidth = $(window).width();
+		$('body, html').css('overflow', 'visible');
+		
+			if (screenWidth >= 768) {
+				$('#navigation nav').css({'display':'block'});
+			}
+			/*else {
+				$('#navigation').css({'display':'none'});
+				menuVisible = false;
+			}*/
+   });
     
     
     
