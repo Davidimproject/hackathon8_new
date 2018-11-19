@@ -407,6 +407,7 @@ h2 {
 
 .footer { 
     display: flex;
+    align-content: stretch;
     width: 100%;
     background-color: #fff;
     color: #777;
@@ -442,7 +443,7 @@ h2 {
 .copyright {
     text-align: center; 
     font-size: 12px;
-    background-color: #f8f8f8;
+
     padding: 10px 0;
     font-family:'cover by your grace', sans-serif;
 }
