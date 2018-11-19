@@ -94,7 +94,7 @@ $(document).ready(function () {
         var scrollTo = $(this).attr("data-scrollto");
         var scrollid = "#" + scrollTo;
         
-        $(".active").removeClass("active");
+        $(" scrollNav.active").removeClass("active");
         $(this).addClass("active");
         
         scrollToElement(scrollid);

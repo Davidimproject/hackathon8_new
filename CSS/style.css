@@ -142,7 +142,7 @@ h2, h4 {
 
 
 
- .slides {
+ /*.slides {
 		display: none; 
 		width: 100%;
 }
@@ -161,7 +161,7 @@ h2, h4 {
     background-color: #fff;
     box-shadow: 1px 2px 18px #888888;
 
-}
+}*/
 /* Events*/
 #sec3 {
 	padding: 20px 0 0 0 ;
