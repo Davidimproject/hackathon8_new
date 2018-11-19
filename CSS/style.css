@@ -277,6 +277,12 @@ h2 {
         z-index: 10;
     }
     
+    .slide-text {
+        width: 60%;
+        margin-top: -100px;
+        z-index: 100
+    }
+    
 
 }
 
