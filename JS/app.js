@@ -41,14 +41,7 @@ function showSlides() {
 	
    
 
- 
- // neuer Slider
-    
 
- $('.carousel').carousel({
-  interval: 2000
-})
- 
  
  
  

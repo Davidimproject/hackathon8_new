@@ -18,7 +18,7 @@ body {
 
 
 h1 {
-    font-family: 'cover by your grace', sans-serif;
+    font-family: 'cover by your grace', sans-serif !important;
     font-size: 58px !important;
 }
 
@@ -102,9 +102,6 @@ h2 {
 .top-right {
     font-family: 'Covered By Your Grace', cursive;
     text-align: right;
-    position: absolute; /* ausschalten um Problem mit Navi zu lösen */
-    top: 50%;
-    right: 30%;
     color: #fff;
     font-size: 52px;
 	background-size: cover;
@@ -112,7 +109,6 @@ h2 {
 
 
 .container .hero {
-    position: relative;
     text-align: center;
     color: white;
 }
@@ -283,6 +279,12 @@ h2 {
         z-index: 10;
     }
     
+    .slide-text {
+        width: 60%;
+        margin-top: -100px;
+        z-index: 100
+    }
+    
 
 }
 
@@ -292,16 +294,12 @@ h2 {
 /* Tablet Responsive */
 @media only screen and (max-width: 992px) {
     
-    .top-right {
-    top: 40%;
-    left: 30%;
-    font-size: 42px;
-}
     
     .blog-img {
         width: 50%;
     }
 }
+
 /* Mobile Responsive */
 
 @media only screen and (max-width: 768px) {
@@ -328,9 +326,8 @@ h2 {
         height: 1000px;
     }
 
-    .section .banner {
-        height: 600px;
-        
+    .banner {
+        height: 500px !important;
     }
     h1 {
         font-size: 32px !important;
