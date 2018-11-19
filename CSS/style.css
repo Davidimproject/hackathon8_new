@@ -35,8 +35,8 @@ h2 {
 		overflow: visible;
 		text-transform: none;
 		color: #fff;
+		font-size: 50px;
 }
-
 
 /* Sections & Container */
 .section {
@@ -91,7 +91,7 @@ h2 {
     height: 800px;
     min-height: 400px;
     background-image: url(../images/nichlas-andersen-415226-unsplash.jpg);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;	
     background-size: cover;
 }
 
@@ -103,17 +103,18 @@ h2 {
 .top-right {
     font-family: 'Covered By Your Grace', cursive;
     text-align: right;
-    position: absolute;
+    position: absolute; /* ausschalten um Problem mit Navi zu lösen */
     top: 50%;
     left: 30%;
     color: #fff;
     font-size: 52px;
+	background-size: cover;
 }
 
 
 .container .hero {
     position: relative;
-    text-align: center:
+    text-align: center;
     color: white;
 }
 
@@ -427,11 +428,11 @@ h2 {
 
 .footer-row ul li {
     list-style: none;
-    padding: 5px;
+    padding: 2.5px;
     font-size: 12px;
 }
 
-footer-row a {
+.footer-row a {
     color: #000;
     text-decoration-color: #777;
 }
