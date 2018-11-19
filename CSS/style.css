@@ -28,9 +28,13 @@ h2 {
 }
 
 
-.btn .btn-primary .unserbutton {
-    font-family: 'Covered By Your Grace', cursive;
-    background-color: #06d500;
+.button {
+		font-family: 'Covered By Your Grace', cursive;
+		background-color: #06d500;
+		border-radius: 0;
+		overflow: visible;
+		text-transform: none;
+		color: #fff;
 }
 
 
@@ -250,7 +254,7 @@ h2 {
     height: 100%;
 }
 .newsletter h6 {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .input {

@@ -126,10 +126,10 @@ $(document).ready(function () {
 			if (screenWidth >= 768) {
 				$('#navigation nav').css({'display':'block'});
 			}
-			/*else {
-				$('#navigation').css({'display':'none'});
+			else {
+				$('#navigation nav').css({'display':'none'});
 				menuVisible = false;
-			}*/
+			}
    });
     
     
