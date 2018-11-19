@@ -1,0 +1,156 @@
+#logo {
+    
+    font-family: 'Covered By Your Grace';
+    font-size: 32px;
+    color: white;
+    display: inline-block;
+    padding-left: 15px;
+    cursor: default;
+    position: fixed;
+    top: 16px;
+    transition: 0.2s ease;
+}
+
+#logo:hover {
+    
+    color: green;
+    cursor: default;
+}
+
+#navigation {
+    /* background: black; */
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+35,000000+100&0.65+7,0+92,0+100,0+101 */
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 7%, rgba(0,0,0,0.44) 35%, rgba(0,0,0,0) 92%, rgba(0,0,0,0) 100%, rgba(0,0,0,0) 101%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 7%,rgba(0,0,0,0.44) 35%,rgba(0,0,0,0) 92%,rgba(0,0,0,0) 100%,rgba(0,0,0,0) 101%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 7%,rgba(0,0,0,0.44) 35%,rgba(0,0,0,0) 92%,rgba(0,0,0,0) 100%,rgba(0,0,0,0) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+#navigation nav {
+   float: right;
+}
+
+#navigation nav ul {
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#navigation nav ul li {
+    display: inline-block;
+    padding: 25px 15px;
+    transition: 0.2s ease;
+    cursor: default;
+}
+
+#navigation nav ul li a {
+
+    color: white;
+    font-size: 18px;
+    cursor: default;
+    
+}
+
+#navigation nav ul li a.active {
+
+    color: green;
+    
+}
+
+#navigation nav ul li:hover {
+
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    /* background: #312f2f; */
+    transition: 0.2s ease;
+    
+}
+
+#navigation nav ul li a:hover {
+    text-decoration: none;
+    color: green;
+    cursor: default;
+}
+
+#navigation.scrolled {
+    background: black;
+    transition: 0.2s ease;
+}
+
+#hamburgerNavIcon {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    #logo {
+        top: 6px;
+        font-size: 34px;
+    }
+    
+    #navigation {
+        position: fixed;
+		height: 60px;
+    }
+    
+    #navigation.scrolled {
+        position: fixed;
+        background: black;
+        height: 60px;
+    }
+    
+    #navigation nav {
+        display: none; 
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100vh;
+        background: black;
+    }
+    
+    #navigation nav ul li {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #navigation nav ul li a {
+        font-size: 3.2em;
+    }
+    
+    #navigation nav ul {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #hamburgerNavIcon {
+        display: block;
+        position: fixed;
+        right: 10px;
+        top: 7px;
+        z-index: 9999;
+        cursor: default;
+    }
+    
+    #hamburgerNavIcon i {
+        color: white;
+        font-size: 46px;
+        cursor: default;
+    }
+    
+}
+
+
+
