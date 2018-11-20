@@ -47,6 +47,8 @@ h2, h4 {
     padding: 50px 0;
 }
 
+
+
 .container {
     height: 500px;
     width: 90;
@@ -141,7 +143,17 @@ h2, h4 {
 
 /* Spots (Slidegalerie)*/
 
+.slide {
+    height: auto !important;
+}
 
+.section spots {
+    padding: 0px !important;
+}
+
+.w-100 {
+    height: 700px;
+}
 
 
 /* Events*/
@@ -374,14 +386,15 @@ h2, h4 {
 
  
 
-    }
+
      
      /*START Slides*/
 
-    .slide {
-        width: 100%;
-        height: 200px;
-    }
+
+.w-100 {
+    height: 400px;
+}
+
     
     
     
