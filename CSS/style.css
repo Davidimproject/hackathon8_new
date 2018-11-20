@@ -155,6 +155,15 @@ h2, h4 {
     height: 700px;
 }
 
+.card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    border-radius: 0;
+    width: 40% !important;
+    height: 100%;
+}
 
 /* Events*/
 #sec3 {
@@ -461,7 +470,6 @@ h2, h4 {
 .copyright {
     text-align: center; 
     font-size: 12px;
-
     padding: 10px 0;
     font-family:'cover by your grace', sans-serif;
 }
