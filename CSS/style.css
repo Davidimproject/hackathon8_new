@@ -96,8 +96,8 @@ p {
     height: 800px;
     background-image: url(../images/nichlas-andersen-415226-unsplash.jpg);
     background-repeat: no-repeat;	
-    background-size: 80%;
-    background-position: left center;
+    background-size: 70%;
+    background-position: left bottom;
 	/*background-attachment: fixed;*/
     margin-left: 20px;
 }
@@ -152,7 +152,7 @@ p {
 }
 
 .w-100 {
-    height: 700px;
+    height:   700px;
 }
 
 .card {
@@ -309,11 +309,12 @@ p {
         z-index: 10;
     }
     
-    .slide-text {
-        width: 60%;
-        margin-top: -100px;
-        z-index: 100
-    }
+    .card {
+    margin-top: 100px;
+    padding: 50px 20px;
+    width: 30% !important;
+    height: 70%;
+}
     
     
 }
