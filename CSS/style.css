@@ -28,7 +28,9 @@ h2, h4 {
     color: #000 !important;
 }
 
-
+p {
+    color: #777;
+}
 .button {
 		font-family: 'Covered By Your Grace', cursive;
 		background-color: #06d500;
@@ -92,10 +94,12 @@ h2, h4 {
 }
 .banner {
     height: 800px;
-    background-image: url(../images/test.jpg); /*nichlas-andersen-415226-unsplash.jpg*/
+    background-image: url(../images/nichlas-andersen-415226-unsplash.jpg);
     background-repeat: no-repeat;	
-    background-size: cover;
-	background-attachment: fixed;
+    background-size: 80%;
+    background-position: left center;
+	/*background-attachment: fixed;*/
+    margin-left: 20px;
 }
 
 
@@ -106,16 +110,12 @@ h2, h4 {
 .top-right {
     font-family: 'Covered By Your Grace', cursive;
     text-align: right;
-    color: #fff;
-    font-size: 52px;
-	background-size: cover;	
+    color: #000;
+    font-size: 52px;	
+
 }
 
 
-.container .hero {
-    text-align: center;
-    color: white;
-}
 
 
 
@@ -165,6 +165,18 @@ h2, h4 {
     height: 100%;
 }
 
+.share-btn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.share-btn a img {
+    width: 18px;
+    height: auto;
+    align-self: flex-end;
+}
+
 /* Events*/
 #sec3 {
 	padding: 20px 0 0 0 ;
@@ -182,11 +194,12 @@ h2, h4 {
     flex-direction: column;
     height: auto;
     margin: 10px 0;
-    border: 1px solid #d1d1d1;
+    border: 1px solid dotted #777;
     padding-left: 5px;
     transition: all 0.3s ease 0s;
     background-color: #fff;
 }
+
 
 .Event h5 {
     color: #000;
@@ -390,15 +403,20 @@ h2, h4 {
 
     }
     
-    
+
 
 
 
 
  
+container .hero {
+    justify-content: flex-start;
+}
 
-
-     
+    .share-btn {
+    margin-top: 0px;
+}
+ 
      /*START Slides*/
 
 
