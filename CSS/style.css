@@ -314,13 +314,15 @@ p {
     }
     
     .card {
-    margin-top: 100px;
-    padding: 50px 20px;
-    width: 30% !important;
-    height: 70%;
-}
+        margin-top: 100px;
+        padding: 50px 20px;
+        width: 30% !important;
+        height: 70%;
+    }
     
-    
+    .hero {
+        justify-content: center !important;
+    }
 }
 
 
@@ -398,7 +400,7 @@ p {
     }
     
     img {
-        width: 40%;
+        width: 60%;
     }
     
 
