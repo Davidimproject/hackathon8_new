@@ -94,12 +94,11 @@ p {
 }
 .banner {
     height: 800px;
-    background-image: url(../images/nichlas-andersen-415226-unsplash.jpg);
+    background-image: url(../images/test.JPG);
     background-repeat: no-repeat;	
-    background-size: 70%;
-    background-position: left bottom;
-	/*background-attachment: fixed;*/
-    margin-left: 20px;
+    background-size: cover;
+	background-attachment: fixed;
+
 }
 
 
@@ -109,10 +108,13 @@ p {
 
 .top-right {
     font-family: 'Covered By Your Grace', cursive;
-    text-align: right;
-    color: #000;
+    text-align: center;
+    color: #fff;
     font-size: 52px;	
-
+    background-image: url(../images/fa109036d6257a073831e628218f5b02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
 }
 
 
@@ -220,6 +222,7 @@ p {
 }
 .Event-text p {
     text-align: left;
+    margin-bottom: 0px;
 }
 .Event-text h4 {
     margin-bottom: 20px;
@@ -410,9 +413,7 @@ p {
 
 
  
-container .hero {
-    justify-content: flex-start;
-}
+
 
     .share-btn {
     margin-top: 0px;
@@ -457,7 +458,7 @@ container .hero {
 
 .footer { 
     display: flex;
-    align-content: stretch;
+    align-content: space-between;
     width: 100%;
     background-color: #fff;
     color: #777;
